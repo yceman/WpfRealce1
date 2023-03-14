@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfRealce.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfRealce"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Frame x:Name="Main" NavigationUIVisibility="Hidden"/>
+        <Rectangle HorizontalAlignment="Left" Height="434" VerticalAlignment="Center" Width="191" Fill="#FF58B0BD"/>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top" Margin="10,0,624,0">
+            <Button Content="Clientes" MinWidth="100" Margin="0,10,0,0" Click="Button_Click"/>
+            <Button Content="Despesas" MinWidth="100" Margin="0,10,0,0"/>
+            <Button Content="Financeiro" MinWidth="100" Margin="0,10,0,0"/>
+            <Button Content="Produtos" MinWidth="100" Margin="0,10,0,0" Click="Button_Click_1"/>
+            
+        </StackPanel>
+        <Separator HorizontalAlignment="Left" Margin="191,0,0,0" Width="16"/>
+        <Button Content="Sair" HorizontalAlignment="Left" Margin="10,364,0,0" VerticalAlignment="Top" Width="166"/>
+
+
+    </Grid>
+</Window>
