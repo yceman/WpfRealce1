@@ -34,5 +34,20 @@ namespace WpfRealce
         {
             Main.Navigate(new Produtos());
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Main.Navigate(new Financeiro());
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Main.Navigate(new Estoque());
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Main.Navigate(new Despesas());
+        }
     }
 }
