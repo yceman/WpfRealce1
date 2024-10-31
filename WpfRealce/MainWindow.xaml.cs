@@ -49,5 +49,10 @@ namespace WpfRealce
         {
             Main.Navigate(new Despesas());
         }
+
+        private void Button_Click_Exit(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

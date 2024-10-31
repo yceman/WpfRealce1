@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfRealce"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Frame x:Name="Main" NavigationUIVisibility="Hidden"/>
@@ -17,7 +18,7 @@
             <Button Content="Estoque" MinWidth="100" Margin="0,10,0,0" Click="Button_Click_3"/>
         </StackPanel>
         <Separator HorizontalAlignment="Left" Margin="191,0,0,0" Width="16"/>
-        <Button Content="Sair" HorizontalAlignment="Left" Margin="10,364,0,0" VerticalAlignment="Top" Width="166"/>
+        <Button Content="Sair" HorizontalAlignment="Left" Margin="10,364,0,0" VerticalAlignment="Top" Width="166" Click="Button_Click_Exit"/>
 
 
     </Grid>

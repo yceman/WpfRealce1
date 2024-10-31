@@ -8,8 +8,8 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Clientes">
 
-    <Grid>
-        <Label Content="Página destinada aos clientes" HorizontalAlignment="Left" Height="32" Margin="341,82,0,0" VerticalAlignment="Top" Width="170"/>
+    <Grid Margin="190,0,0,0">
+        <Label Content="Página destinada aos clientes" HorizontalAlignment="Center" Height="32" Margin="0,82,0,0" VerticalAlignment="Top" Width="170"/>
 
     </Grid>
 </Page>
